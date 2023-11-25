@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+nav{
+    background-color: rgba(134, 134, 134, 0.516);
+    backdrop-filter: blur(15px);
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    z-index: 3;
+}
+nav div{
+    width:80% ;
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav div ul li{
+    padding: 0.5rem;
+    display: inline;
+}
+nav div ul li a{
+    text-decoration: none;
+    color: white;
+}
+section{    
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+section table tr{
+}
+section table tr td{
+    padding: 2rem;
+}
+section table{
+    color: white;
+    margin: 1rem;
+    margin-top: 10rem;
+    backdrop-filter: blur(7px) brightness(0.7);
+}
+section{
+    background-image: url(dtplan.jpg);
+    background-position: center;
+    background-size: contain;
+}
+table tr td:hover{
+    background-color: rgba(96, 236, 255, 0.518);
+    color: black;
+}
